@@ -1,0 +1,27 @@
+// Forms
+
+.input-group {
+  margin-bottom: 1em;
+  
+}
+.page-form {
+  max-width: 600px;
+}
+
+.form-tracker {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-tracker {
+  margin-bottom: 1em;
+  padding-bottom: 2.5em;
+}
+
+// RESPONSIVE - MOBILE ----------------------------------------
+@media all and (max-width: 768px){
+  .form-tracker {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}

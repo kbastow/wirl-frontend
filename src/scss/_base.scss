@@ -1,0 +1,633 @@
+// Base ----------------------------------------
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: var(--base-txt-color);
+}
+
+body {
+  padding: 0;  
+  margin: 0;
+  color: var(--base-txt-color);
+  font-family: var(--base-font-family);
+  font-weight: 300;
+  background: var(--body-bg);
+  height: 100vh;
+}
+
+
+// headings ----------------------------------------
+h1,h2,h3,h5,h6 {
+  font-weight: 200;
+  margin: 0 0 .5em;
+  color: var(--heading-color);
+}
+
+// links ----------------------------------------
+a {
+  color: var(--link-color);
+  text-decoration: none;
+
+  :hover{
+    text-decoration: underline;
+  }
+}
+
+// app splash screen ----------------------------------------
+.app-splash {
+  position: fixed;
+  background: var(--body-bg);
+  color: var(--base-txt-color);
+  display: flex;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .app-logo {
+    width: 180px;
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+
+
+// helper classes ----------------------------------------
+.calign {
+  text-align: center;
+}
+
+.large-text {
+  font-size: 1.6em;
+}
+
+.brand-color {
+  color: var(--brand-color);
+}
+
+
+// generic-entry ----------------------------------------
+.generic-entry {
+  box-shadow: 0px 3px 5px var(--base-txt-color);
+  border-radius: 5px;
+  margin-bottom: .5em;
+  padding: 1em;
+  background: #fff;
+}
+
+
+// root ----------------------------------------
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  overflow: hidden;
+}
+
+
+// page ----------------------------------------
+.page-content {
+  position: absolute;
+  top: var(--app-header-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 1em;
+  &.no-pad {
+    padding: 0;
+  }
+}
+
+.page-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// sign in + sign up pages ----------------------------------------
+.signinup-box,
+.signup-box {  
+  max-width: 320px;
+  text-align: center;
+
+  h1 {
+    font-weight: 200;
+    padding-bottom: 1em;
+  }
+  
+  p  {
+    color: var(--brand-color);
+    padding-bottom: 2em;
+  }
+}
+
+.signinup-logo {
+  width: 100px;
+  margin-top: 2em;
+}
+
+// about page ----------------------------------------
+.about-section {
+  display: block;
+  max-width: 600px;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5em;
+
+  .about-logo {
+    max-height: 5em;
+  }
+
+  .about-img {
+    max-height: 8em;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--brand-color);
+    padding-bottom: 1em;
+    margin-top: -0.1em;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  h3 {
+    font-weight: 800;
+    font-size: 1.2em;
+    color: var(--brand-color);
+  }
+
+  p {
+    font-weight: 400;
+    padding-bottom: 1em;
+  }
+
+  .about-down {
+    font-size: 2em;
+    margin-bottom: -0.2em;
+  }
+}
+
+// dashboard ----------------------------------------
+.dashboard {
+  margin-left: 25em;
+
+  .welcome-img {
+    display: flex;
+    float: right;
+    margin-right: 30em;
+    height: 100px;
+  }
+
+  h1{
+    font-weight: 300;
+    font-size: 2.5em;
+    margin-top: 1em;
+    padding-right: 2em;
+  }
+
+  h4 {
+    font-weight: 300;
+    margin-top: -0.5em;
+  }
+
+  h2 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--brand-color);
+  }
+
+  .tracker {
+    display: grid;
+    margin-left: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1px;
+    grid-auto-rows: minmax(5px, auto);
+    width: max-content;
+    padding-left: 1.5em;
+
+    .dashboard-logo {
+      width: 100px;
+      grid-column: 1;
+      grid-row: 1;
+      padding-top: 3em;
+    }
+
+    h3 {
+      grid-column: 1;
+      grid-row: 2;
+      color: var(--brand-color);
+      font-size: 1.5em;
+      padding-left: 0.5em;
+    }
+
+    .tracker-btn-1 { 
+      grid-column: 2;
+      grid-row: 1;
+      max-width: 145px;
+      padding-top: 2em
+    }
+
+    .tracker-btn-2 {
+      grid-column: 2;
+      grid-row: 2; 
+      max-width: 145px;
+      padding-bottom: 1em;
+    }
+  }
+
+  .drawer-nav {
+    margin-top: 4em;
+    max-width: 450px;
+
+    h2 {
+      font-weight: 900;
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+    }
+
+    h5 {
+      font-size: 1.5em;
+      font-weight: 900;
+      margin-left: 1.6em;
+    }
+
+    p.info {
+      display: inline-block;
+      margin-left: 2.5em;
+      padding-right: 5em;
+      margin-top: -1em;
+    }
+
+    a.more-info {
+      display: block;
+      margin-left: 2.5em;
+      margin-bottom: 2em;
+      font-weight: 900;
+    }    
+  }
+}
+
+
+// profile page ----------------------------------------
+.profile {
+  h3 {
+    color: var(--brand-color);
+    font-weight: 800;
+    margin-top: 2em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  p.goals {
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+  }
+}
+
+// tracker page ----------------------------------------
+.tracker {
+  h1 {
+    font-weight: 700;
+  }
+  h5 {
+    font-weight: 600;
+    color: var(--brand-color);
+    padding-bottom: 10px;
+  }
+  .tracker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tracker-card {
+    width: max-content;
+    display: block;
+    height: 80%;
+    margin: 1em;
+    box-shadow: 5px 8px 8px #444;
+  }
+}
+
+// tracker entry page ------------------------------------
+.newtracker-box {
+  .close-tracker {
+    padding: 1em;
+  }
+  .tracker-logo {
+    width: 100px
+  }
+  h1 {
+    font-weight: 400;
+    margin: 1.2em 0em;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: -.5em;
+    color: var(--brand-color);
+  }
+  .colour-img {
+    height: 3em;
+    padding: 10px 45px;
+  }
+  .emotion-img {
+    height: 4em;
+    padding: 10px 30px;
+  }
+  .movement-img {
+    height: 10em;
+    padding: 0px 15px;
+  }
+}
+
+// eat, move and mind pages ----------------------------------------
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .blog-card {
+    width: 35%;
+    height: 80%;
+    margin: 2em;
+    box-shadow: 5px 8px 8px #444;
+  }
+}
+
+// blog dialogs ----------------------------------------
+.blog-dialog {
+  --width: 80%;
+
+  img {
+    display: none;
+  }
+
+  h1 {
+  font-weight: 600;
+  font-size: 1.6em;
+  margin-left: 1.2em;
+  }
+
+  p {
+    line-height: 2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: left;
+  }
+}
+
+// new blog page ----------------------------------------
+.newblog-box {  
+  max-width: 600px;
+}
+
+
+// RESPONSIVE - MOBILE ----------------------------------------
+@media all and (max-width: 768px){ 
+
+// siginup content ----------------------------------------
+  .signinup-box {
+    width: 90%;
+    max-width: none;
+  }
+
+// dashboard content ----------------------------------------
+.dashboard {
+  margin-left: 2em;
+
+  .welcome-img {
+    margin-right: 2em;
+    height: 65px;
+  }
+
+  h1{
+    font-weight: 300;
+    font-size: 1.8em;
+    margin-top: 1em;
+    padding-right: 2em;
+  }
+
+  h4 {
+    font-weight: 300;
+    margin-top: -0.5em;
+    margin-bottom: 2.5em;
+  }
+
+  .tracker {
+    padding-left: 0em;
+    margin-left: .5em;
+  
+    .dashboard-logo {
+      width: 85px;
+    }
+
+    h3 {
+      color: var(--brand-color);
+      font-size: 1.3em;
+      padding-left: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+    .tracker-btn { 
+      max-width: max-content;
+      padding-bottom: 0.8em;
+    }
+  }
+
+  .drawer-nav {
+    margin-top: 3em;
+
+    h2 {
+      font-weight: 900;
+      font-size: 1em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+
+    h5 {
+      font-size: 1.2em;
+      font-weight: 900;
+      margin-left: 0.3em;
+      padding-top: 5px;
+    }
+    
+    p.info {
+      display: block;
+      margin-left: 0.5em;
+      font-size: 0.8em;
+      padding-right: none;
+      margin-top: 1em;
+    }
+  
+    a.more-info {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0.5em;
+      font-weight: 700;
+      font-size: 0.8em;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+
+// tracker entry page ------------------------------------
+.newtracker-box {
+  .tracker-logo {
+    width: 90px
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 1.8em;
+    margin: 1em 0em;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 0.8em;
+  }
+  .colour-img {
+    height: 2.5em;
+    padding: 10px 20px;
+  }
+  .emotion-img {
+    height: 3em;
+    padding: 10px 14px;
+  }
+  .movement-img {
+    height: 5em;
+    padding: 0px 20px;
+  }
+}
+
+
+// tracker page ----------------------------------------
+.tracker {
+  h1 {
+    font-weight: 400;
+  }
+  h5 {
+    font-weight: 500;
+    color: var(--brand-color);
+    padding-bottom: 10px;
+  }
+  .tracker-card {
+    width: 95%;
+    margin: 1em;
+  }
+}
+
+
+// new blog content ----------------------------------------
+  .newblog-box {
+    width: 90%;
+    max-width: none;
+  }
+
+
+// tracker grid and cards ----------------------------------------
+.tracker {
+
+  .tracker-grid {
+    display: block;
+    margin-top: 2em;
+    width: 90%;
+    max-width: none;
+  }
+
+  .tracker-card {
+    margin: 1em;
+    box-shadow: none;
+  }
+}
+
+
+// blog grid and cards ----------------------------------------
+  .blog-grid {
+    display: block;
+    width: 90%;
+    max-width: none;
+
+    .blog-card {
+      margin: 1em;
+      box-shadow: none;
+    }
+  }
+
+
+// blog dialog content ----------------------------------------
+  .blog-dialog {
+    .content {
+      max-width: 80%;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 2em;
+      margin-left: 0.5em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+    p {
+      line-height: 2em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      justify-content: left;
+    }
+  }
+
+
+// about page content ----------------------------------------
+  .about-section {
+    max-width: 320px;
+
+    .about-logo {
+      max-height: 3em;
+    }
+
+    .about-img {
+      max-height: 6em;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 0.9em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+}

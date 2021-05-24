@@ -1,0 +1,65 @@
+// Shoelace
+
+.sl-input::part(input) {
+  font-size: 1em;
+}
+
+//sl-button ----------------------------------------
+.sl-button::part(base) {
+  background: var(--body-bg);
+  border: solid 1px var(--brand-color);
+}
+
+.sl-button::part(base):hover {
+  background: var(--sl-color-primary-300);
+}  
+
+.sl-button::part(base):active {
+  background: var(--sl-color-primary-300);
+}    
+
+.sl-button::part(base):focus {
+  box-shadow: 0 0 0 3px var(--brand-color);
+}
+
+.sl-button::part(label) {
+  color: var(--brand-color);
+}
+
+// sl-radio
+.radio::part(label) {
+    font-size: 0.8em;
+    margin-right: 2.5em;
+    font-family: var(--base-font-family);
+    color: var(--base-txt-color);
+}
+
+// sl-dialog ----------------------------------------
+.blog-dialog::part(body) {
+  margin-top: -4em;
+  font-size: 0.8em;
+}
+
+// sl-dialog ----------------------------------------
+.tracker-dialog::part(body) {
+  margin-top: -3em;
+  font-size: 1em;
+}
+
+// RESPONSIVE - MOBILE ----------------------------------------
+@media all and (max-width: 768px){ 
+
+  .sl-dialog::part(panel) {
+    width: 95%;
+    height: 95%;
+    max-height: none;
+    max-width: none;
+  }
+  
+  .radio::part(label) {
+    font-size: 0.6em;
+    margin-right: 0.1em;
+    font-family: var(--base-font-family);
+    color: var(--base-txt-color);
+  }
+}
