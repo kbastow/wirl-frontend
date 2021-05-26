@@ -43,6 +43,7 @@ class TrackerView {
                 movement="${tracker.movement}"
                 variety="${tracker.variety}"
                 emotion="${tracker.emotion}"
+                createdAt="${tracker.createdAt}"
               >
             </va-tracker>
             `)}

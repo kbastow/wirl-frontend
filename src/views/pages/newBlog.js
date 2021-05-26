@@ -55,9 +55,7 @@ class newBlogView {
             </div>
             <div class="input-group" style="margin-bottom: 2em;">
               <label>Image</label><br>
-              <input type="file" name="media" style="margin-bottom: 2em;"/>
-              <br>
-              <sl-input name="link" type="url" label="URL" placeholder="https://example.com/"></sl-input>              
+              <input type="file" name="media" style="margin-bottom: 2em;"/>           
             </div>
             <sl-button type="primary" class="submit-btn" submit>Submit</sl-button>
           </sl-form>

@@ -53,13 +53,31 @@ class TrackerEntryView {
         margin-right: 2em;
         text-align: left;
         padding-bottom: 1em;
-    }    
+    }
+    
+    .learn-links {
+      font-size: 0.8em;
+      margin-bottom: 2em;
+      line-height: 1.5em;
+    }
+
+    a.more {
+      display: block;
+      padding-bottom: 1.2em;
+    }
+
     </style>
     
     <div class="wrap">
       <div class="content">
         <h1>Congrats!</h1>
         <p>You've completed your tracker entry for the day.</p>
+        <div class="learn-links">
+          <p>Learn from the experts. Looking for some inspiration to be more mindful about your daily habits?</p>
+            <a class="more" href="/eatBlog" @click="${anchorRoute}">Go to Eat<sl-icon style="font-size: 12px; padding-left: 0.5em;" name="caret-right"></sl-icon></a>
+            <a class="more" href="/mindBlog" @click="${anchorRoute}">Go to Mind<sl-icon style="font-size: 12px; padding-left: 0.5em;" name="caret-right"></sl-icon></a>
+            <a class="more" href="/moveBlog" @click="${anchorRoute}">Go to Move<sl-icon style="font-size: 12px; padding-left: 0.5em;" name="caret-right"></sl-icon></a>
+            </div>
         <sl-button type="primary" class="anim-in" @click=${() => gotoRoute('/')}>Return to Dashboard</sl-button>         
       </div>
     </div>

@@ -58,11 +58,6 @@ customElements.define('va-blog', class Blog extends LitElement {
         margin-right: 2em;
         text-align: left;
     }
-
-    .frame {
-      display: block;
-      margin-bottom: 1em;
-    }
     
     </style>
     
@@ -73,9 +68,6 @@ customElements.define('va-blog', class Blog extends LitElement {
       <div class="content">
         <h1>${this.title}</h1>
         <p>${this.post}</p>
-          <sl-responsive-media class="frame" aspect-ratio="16:9">
-            <iframe id="urlFrame" frameborder="0" allow="autoplay" fullscreen="allowfullscreen" fit="contain" src="${this.link}"></iframe>
-          </sl-responsive-media>
         <sl-button type="primary" @click=${this.saveBlogsHandler.bind(this)}>
           <sl-icon slot="prefix" name="heart-fill"></sl-icon>Save
         </sl-button>
@@ -112,40 +104,30 @@ customElements.define('va-blog', class Blog extends LitElement {
         display: flex;
         flex-wrap: wrap;
       }
-
       img {
         display: inline-block;
         width: 95%;
         padding-top: 0.5em;
       }
-
       h2 {
         text-align: left;
         font-size: 1.2em;
         padding-top: 1em;
       }
-
       p {
         text-align: left;
         font-size: 0.9em;
         padding-bottom: 2em;
-      }
-
-      .author {
-          font-size: 0.8em;
-          font-style: italic;
       }
       .buttons {
         text-align: left;
         padding-bottom: 2em;
     }
     </style>
-
     <sl-card>
       <img slot="image" src="${App.apiBase}/images/${this.media}" />
       <h2>${capitalize(this.title)}</h2>
       <p>${truncate(this.post, 20)}</p>
-      <p class="author">By ${this.user.firstName}</p>
       <div class="buttons">
         <sl-button type="primary" @click=${this.viewPostHandler.bind(this)}>View post</sl-button>
         <sl-button type="primary" @click=${this.saveBlogsHandler.bind(this)}>

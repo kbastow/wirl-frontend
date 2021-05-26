@@ -49,7 +49,7 @@ class AboutView {
           <h2>How to use the WIRL Tracker</h2>
           <img class="about-img" src="${App.apiBase}/images/flex.png">
           <h3>Become more intuitive with the way you eat, move and think</h3>
-          <p>Use the WIRL Tracker each day to track your eating and movement habits. Reflect on your daily intake and output and how it makes you feel. Keep track of and reflect on your progress to empower yourself each day.</p>
+          <p>Use the WIRL Tracker each day to reflect your eating and movement habits. Reflect on your daily intake and output and how it makes you feel. Keep track of and reflect on your progress to empower yourself each day.</p>
           <sl-icon class="about-down" name="arrow-down"></sl-icon>
         </div>
 
@@ -59,7 +59,9 @@ class AboutView {
           <h3>Expert advice and delicious recipes to inspire change</h3>
           <p>We’ve teamed up with a bunch of legends to bring you all the goods. Learn from our Eat, Mind and Move teachings with expert advice to improve your mental and physical wellbeing!</p>
         </div>
+        <div class="about-section">
         <sl-button type="primary" class="anim-in" @click=${() => gotoRoute('/')}>Go to Dashboard</sl-button>
+        </div>
       </div>      
     `
     render(template, App.rootEl)

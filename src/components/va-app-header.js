@@ -59,7 +59,7 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         box-sizing: border-box;
       }
       .app-header {
-        background: #fffcfa;
+        background: var(--brand-colour);
         position: fixed;
         top: 0;
         right: 0;
@@ -106,11 +106,6 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         display: flex;
         height: 100%;
         align-items: center;
-      }
-      
-      .sl-menu-items {
-          font-family: var(--base-font-family);
-          font-weight: 200;
       }
       
       .app-top-nav a {
@@ -167,7 +162,7 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         text-decoration: none;
         color: var(--base-txt-color);
       }
-      }
+    }
 
     </style>
 

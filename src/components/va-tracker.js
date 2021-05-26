@@ -1,8 +1,4 @@
 import { LitElement, html } from '@polymer/lit-element'
-import { render } from 'lit-html'
-import Auth from './../Auth'
-import App from './../App'
-import Toast from './../Toast'
 import moment from 'moment'
 
 
@@ -33,7 +29,10 @@ customElements.define('va-tracker', class Tracker extends LitElement {
       },    
       emotion: {
         type: String
-      }               
+      },
+      createdAt: {
+        type: Date
+      }          
     }
   }
 
@@ -53,7 +52,6 @@ customElements.define('va-tracker', class Tracker extends LitElement {
         font-size: 1em;
         font-weight: 400;
       }
-
       p {
         text-align: left;
         font-size: 0.8em;
@@ -63,8 +61,8 @@ customElements.define('va-tracker', class Tracker extends LitElement {
         font-weight: 600;
       }
     </style>
-
     <sl-card class="tracker-card">
+      <p class="date">Tracker Entry: ${moment(this.createdAt).format('MMMM Do YYYY')}</p>
       <h4>I have gratitude for these things in my life:</h4>
       <p>${capitalize(this.gratitude)}</p>
       <h4>How much variety was in my meals:</h4>
@@ -75,7 +73,7 @@ customElements.define('va-tracker', class Tracker extends LitElement {
       <p>${capitalize(this.reflection)}</p>
       <h4>How much movement I did:</h4>
       <p>${this.movement}</p>
-      <p class="date">Tracker Entry: ${moment(Tracker.createdAt).format('MMMM Do YYYY')}</p>
+      <p>${this.user}</p>
     </sl-card>
     `
   }

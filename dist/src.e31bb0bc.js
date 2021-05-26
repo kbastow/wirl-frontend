@@ -7688,7 +7688,7 @@ var _Utils = _interopRequireDefault(require("./../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"\" user=", "></va-app-header>\n      \n      <div class=\"page-content\">\n        <div class=\"dashboard anim-in\">\n          <img class=\"welcome-img\" src=\"", "/images/hand.png\">\n          <h1>Hey ", ",</h1>\n          <h4>It's nice to see you.</h4>\n          <a href=\"/savedList\" @click=\"", "\"><h2><sl-icon style=\"font-size: 12px; padding-right: 0.5em;\" name=\"heart\"></sl-icon>My Saved List</h2></a>\n          \n          <div class=\"tracker\">\n            <img class=\"dashboard-logo\" src=\"/images/logo.svg\">        \n            <h3>Tracker</h3>\n            <sl-button class=\"tracker-btn-1\" type=\"primary\" @click=", ">NEW Entry\n              <sl-icon name=\"pencil-square\"></sl-icon>\n            </sl-button>\n            <sl-button class=\"tracker-btn-2\" type=\"primary\" @click=", ">View progress\n              <sl-icon name=\"clipboard-data\"></sl-icon>\n            </sl-button>\n          </div>\n\n          <div class=\"drawer-nav\">\n            <h2>Learn from the experts</h2>\n            <p>Discover mindfulness techniques, learn new recipes and be inspired to get moving</p>\n            <sl-drawer label=\"Learn\" placement=\"bottom\" class=\"drawer-placement-bottom\" style=\"--size: 75vh;\">\n              <h5>Eat</h5>\n              <p class=\"info\">Info and recipes for healthy minds and bodies</p>\n              <a class=\"more-info\" href=\"/eatBlog\" @click=\"", "\">Go to Eat<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <h5>Mind</h5>\n              <p class=\"info\">Discover meditation and mindfulness techniques</p>\n              <a class=\"more-info\" href=\"/mindBlog\" @click=\"", "\">Go to Mind<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <h5>Move</h5>\n              <p class=\"info\">Get motivated to move your body</p>\n              <a class=\"more-info\" href=\"/moveBlog\" @click=\"", "\">Go to Move<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <sl-button slot=\"footer\" type=\"primary\">Close</sl-button>  \n            </sl-drawer>\n\n            <sl-button type=\"primary\">Learn</sl-button>\n          </div>\n        </div>\n      </div>\n     \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"\" user=", "></va-app-header>\n      \n      <div class=\"page-content\">\n        <div class=\"dashboard anim-in\">\n          <img class=\"welcome-img\" src=\"", "/images/hand.png\">\n          <h1>Hey ", ",</h1>\n          <h4>It's nice to see you.</h4>\n          <a href=\"/savedList\" @click=\"", "\"><h2><sl-icon style=\"font-size: 12px; padding-right: 0.5em;\" name=\"heart\"></sl-icon>My Saved List</h2></a>\n          \n          <div class=\"tracker\">\n            <img class=\"dashboard-logo\" src=\"/images/logo.svg\">        \n            <h3>Tracker</h3>\n            <sl-button class=\"tracker-btn-1\" type=\"primary\" @click=", ">NEW Entry\n              <sl-icon name=\"pencil-square\"></sl-icon>\n            </sl-button>\n            <sl-button class=\"tracker-btn-2\" type=\"primary\" @click=", ">View progress\n              <sl-icon name=\"clipboard-data\"></sl-icon>\n            </sl-button>\n          </div>\n\n          <div class=\"drawer-nav\">\n            <h2>Learn from the experts</h2>\n            <p>Discover mindfulness techniques, learn new recipes and be inspired to get moving</p>\n            <sl-drawer label=\"Learn\" placement=\"bottom\" class=\"drawer-placement-bottom\" style=\"--size: 75vh;\">\n              <h5>Eat</h5>\n              <p class=\"info\">Info and recipes for healthy minds and bodies</p>\n              <a class=\"more-info\" href=\"/eatBlog\" @click=\"", "\">Go to Eat<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <h5>Mind</h5>\n              <p class=\"info\">Discover meditation and mindfulness techniques</p>\n              <a class=\"more-info\" href=\"/mindBlog\" @click=\"", "\">Go to Mind<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <h5>Move</h5>\n              <p class=\"info\">Get motivated to move your body</p>\n              <a class=\"more-info\" href=\"/moveBlog\" @click=\"", "\">Go to Move<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n              <sl-button slot=\"footer\" type=\"primary\">Close</sl-button>  \n            </sl-drawer>\n            <sl-button type=\"primary\">Learn</sl-button>\n          </div>\n        </div>\n      </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -13927,7 +13927,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      \n      <div class=\"page-content calign\">\n\n        <div class=\"about-section anim-in\">\n          <img class=\"about-logo\" src=\"/images/logo.svg\">        \n          <h1>Tracker</h1>\n          <h2>What is the WIRL Tracker?</h2>\n          <img class=\"about-img\" src=\"", "/images/moovin-shakin.png\">\n          <h3>A health kick without the guilt kick</h3>\n          <p>The WIRL tracker is designed to give you a daily check in that prompts you to eat, move and think differently.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>How does it work?</h2>\n          <img class=\"about-img\" src=\"", "/images/team.png\">\n          <h3>We created the WIRL Tracker to give you (and your health) a hug</h3>\n          <p>We started WIRL, Wellness In Real Life, to encourage others to lead their own food and health journey. The WIRL Tracker empowers you to check in on your daily habits to become more mindful of your actions.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>How to use the WIRL Tracker</h2>\n          <img class=\"about-img\" src=\"", "/images/flex.png\">\n          <h3>Become more intuitive with the way you eat, move and think</h3>\n          <p>Use the WIRL Tracker each day to track your eating and movement habits. Reflect on your daily intake and output and how it makes you feel. Keep track of and reflect on your progress to empower yourself each day.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>The How and The Why</h2>\n          <img class=\"about-img\" src=\"", "/images/food.png\">\n          <h3>Expert advice and delicious recipes to inspire change</h3>\n          <p>We\u2019ve teamed up with a bunch of legends to bring you all the goods. Learn from our Eat, Mind and Move teachings with expert advice to improve your mental and physical wellbeing!</p>\n        </div>\n        <sl-button type=\"primary\" class=\"anim-in\" @click=", ">Go to Dashboard</sl-button>\n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      \n      <div class=\"page-content calign\">\n\n        <div class=\"about-section anim-in\">\n          <img class=\"about-logo\" src=\"/images/logo.svg\">        \n          <h1>Tracker</h1>\n          <h2>What is the WIRL Tracker?</h2>\n          <img class=\"about-img\" src=\"", "/images/moovin-shakin.png\">\n          <h3>A health kick without the guilt kick</h3>\n          <p>The WIRL tracker is designed to give you a daily check in that prompts you to eat, move and think differently.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>How does it work?</h2>\n          <img class=\"about-img\" src=\"", "/images/team.png\">\n          <h3>We created the WIRL Tracker to give you (and your health) a hug</h3>\n          <p>We started WIRL, Wellness In Real Life, to encourage others to lead their own food and health journey. The WIRL Tracker empowers you to check in on your daily habits to become more mindful of your actions.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>How to use the WIRL Tracker</h2>\n          <img class=\"about-img\" src=\"", "/images/flex.png\">\n          <h3>Become more intuitive with the way you eat, move and think</h3>\n          <p>Use the WIRL Tracker each day to reflect your eating and movement habits. Reflect on your daily intake and output and how it makes you feel. Keep track of and reflect on your progress to empower yourself each day.</p>\n          <sl-icon class=\"about-down\" name=\"arrow-down\"></sl-icon>\n        </div>\n\n        <div class=\"about-section\">\n          <h2>The How and The Why</h2>\n          <img class=\"about-img\" src=\"", "/images/food.png\">\n          <h3>Expert advice and delicious recipes to inspire change</h3>\n          <p>We\u2019ve teamed up with a bunch of legends to bring you all the goods. Learn from our Eat, Mind and Move teachings with expert advice to improve your mental and physical wellbeing!</p>\n        </div>\n        <div class=\"about-section\">\n        <sl-button type=\"primary\" class=\"anim-in\" @click=", ">Go to Dashboard</sl-button>\n        </div>\n      </div>      \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -14065,7 +14065,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n                user=\"", "\"\n              >\n            </va-blog>\n            "]);
+  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n              >\n            </va-blog>\n            "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -14139,7 +14139,7 @@ class EatBlogView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media, JSON.stringify(blog.user)))));
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14173,7 +14173,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n                user=\"", "\"\n              >\n            </va-blog>\n            "]);
+  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n              >\n            </va-blog>\n            "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -14247,7 +14247,7 @@ class MindBlogView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media, JSON.stringify(blog.user)))));
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14279,7 +14279,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n                user=\"", "\"\n              >\n            </va-blog>\n            "]);
+  const data = _taggedTemplateLiteral(["\n              <va-blog class=\"blog-card\"\n                id=\"", "\"\n                title=\"", "\"\n                post=\"", "\"\n                category=\"", "\"\n                media=\"", "\"\n              >\n            </va-blog>\n            "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -14353,7 +14353,7 @@ class MoveBlogView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media, JSON.stringify(blog.user)))));
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.blogs == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.blogs.map(blog => (0, _litHtml.html)(_templateObject4(), blog._id, blog.title, blog.post, blog.category, blog.media))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14553,7 +14553,7 @@ var _Toast = _interopRequireDefault(require("./../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n              <va-tracker class=\"tracker-card\"\n                id=\"", "\"\n                gratitude=\"", "\"\n                reflection=\"", "\"\n                movement=\"", "\"\n                variety=\"", "\"\n                emotion=\"", "\"\n              >\n            </va-tracker>\n            "]);
+  const data = _taggedTemplateLiteral(["\n              <va-tracker class=\"tracker-card\"\n                id=\"", "\"\n                gratitude=\"", "\"\n                reflection=\"", "\"\n                movement=\"", "\"\n                variety=\"", "\"\n                emotion=\"", "\"\n                createdAt=\"", "\"\n              >\n            </va-tracker>\n            "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -14616,7 +14616,7 @@ class TrackerView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.trackerEntries == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.trackerEntries.map(tracker => (0, _litHtml.html)(_templateObject4(), tracker._id, tracker.gratitude, tracker.reflection, tracker.movement, tracker.variety, tracker.emotion))));
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.trackerEntries == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.trackerEntries.map(tracker => (0, _litHtml.html)(_templateObject4(), tracker._id, tracker.gratitude, tracker.reflection, tracker.movement, tracker.variety, tracker.emotion, tracker.createdAt))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14660,7 +14660,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>\n    .wrap {\n        display: flex;\n        flex-wrap: wrap;\n    }\n   \n    .content {\n        margin-left: 2em;\n        margin-right: 2em;\n        text-align: left;\n        padding-bottom: 1em;\n    }    \n    </style>\n    \n    <div class=\"wrap\">\n      <div class=\"content\">\n        <h1>Congrats!</h1>\n        <p>You've completed your tracker entry for the day.</p>\n        <sl-button type=\"primary\" class=\"anim-in\" @click=", ">Return to Dashboard</sl-button>         \n      </div>\n    </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style>\n    .wrap {\n        display: flex;\n        flex-wrap: wrap;\n    }\n   \n    .content {\n        margin-left: 2em;\n        margin-right: 2em;\n        text-align: left;\n        padding-bottom: 1em;\n    }\n    \n    .learn-links {\n      font-size: 0.8em;\n      margin-bottom: 2em;\n      line-height: 1.5em;\n    }\n\n    a.more {\n      display: block;\n      padding-bottom: 1.2em;\n    }\n\n    </style>\n    \n    <div class=\"wrap\">\n      <div class=\"content\">\n        <h1>Congrats!</h1>\n        <p>You've completed your tracker entry for the day.</p>\n        <div class=\"learn-links\">\n          <p>Learn from the experts. Looking for some inspiration to be more mindful about your daily habits?</p>\n            <a class=\"more\" href=\"/eatBlog\" @click=\"", "\">Go to Eat<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n            <a class=\"more\" href=\"/mindBlog\" @click=\"", "\">Go to Mind<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n            <a class=\"more\" href=\"/moveBlog\" @click=\"", "\">Go to Move<sl-icon style=\"font-size: 12px; padding-left: 0.5em;\" name=\"caret-right\"></sl-icon></a>\n            </div>\n        <sl-button type=\"primary\" class=\"anim-in\" @click=", ">Return to Dashboard</sl-button>         \n      </div>\n    </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -14708,7 +14708,7 @@ class TrackerEntryView {
 
     dialogEl.className = 'tracker-dialog'; // sl-dialog content
 
-    const dialogContent = (0, _litHtml.html)(_templateObject(), () => (0, _Router.gotoRoute)('/'));
+    const dialogContent = (0, _litHtml.html)(_templateObject(), _Router.anchorRoute, _Router.anchorRoute, _Router.anchorRoute, () => (0, _Router.gotoRoute)('/'));
     (0, _litHtml.render)(dialogContent, dialogEl); // append to document.body
 
     document.body.append(dialogEl); // show sl-dialog
@@ -14755,7 +14755,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"\" user=\"", "\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>New Blog</h1>\n        <div class=\"newblog-box\">\n          <sl-form class=\"form-signup\" @sl-submit=", ">\n            <input type=\"hidden\" name=\"user\" value=\"", "\" />\n            <div class=\"input-group\">\n              <sl-input name=\"title\" type=\"text\" placeholder=\"Blog Title\" required></sl-input>\n            </div>\n            <div class=\"input-group\">              \n              <sl-input name=\"category\" type=\"text\" placeholder=\"Category\" required></sl-input>\n            </div>\n            <div class=\"input-group\">\n              <sl-textarea name=\"post\" rows=\"15\" placeholder=\"New Post\" required></sl-textarea>\n            </div>\n            <div class=\"input-group\" style=\"margin-bottom: 2em;\">\n              <label>Image</label><br>\n              <input type=\"file\" name=\"media\" style=\"margin-bottom: 2em;\"/>\n              <br>\n              <sl-input name=\"link\" type=\"url\" label=\"URL\" placeholder=\"https://example.com/\"></sl-input>              \n            </div>\n            <sl-button type=\"primary\" class=\"submit-btn\" submit>Submit</sl-button>\n          </sl-form>\n        </div>      \n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"\" user=\"", "\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>New Blog</h1>\n        <div class=\"newblog-box\">\n          <sl-form class=\"form-signup\" @sl-submit=", ">\n            <input type=\"hidden\" name=\"user\" value=\"", "\" />\n            <div class=\"input-group\">\n              <sl-input name=\"title\" type=\"text\" placeholder=\"Blog Title\" required></sl-input>\n            </div>\n            <div class=\"input-group\">              \n              <sl-input name=\"category\" type=\"text\" placeholder=\"Category\" required></sl-input>\n            </div>\n            <div class=\"input-group\">\n              <sl-textarea name=\"post\" rows=\"15\" placeholder=\"New Post\" required></sl-textarea>\n            </div>\n            <div class=\"input-group\" style=\"margin-bottom: 2em;\">\n              <label>Image</label><br>\n              <input type=\"file\" name=\"media\" style=\"margin-bottom: 2em;\"/>           \n            </div>\n            <sl-button type=\"primary\" class=\"submit-btn\" submit>Submit</sl-button>\n          </sl-form>\n        </div>      \n      </div>      \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -16755,7 +16755,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>      \n      * {\n        box-sizing: border-box;\n      }\n      .app-header {\n        background: #fffcfa;\n        position: fixed;\n        top: 0;\n        right: 0;\n        left: 0;\n        height: var(--app-header-height);\n        color: var(--brand-color);\n        display: flex;\n        z-index: 9;\n        align-items: center;\n      }\n    \n      .app-header-main {\n        flex-grow: 1;\n        display: flex;\n        align-items: center;\n      }\n\n      .app-header-main::slotted(h1){\n        color: var(--brand-color);\n      }\n\n      .app-logo a {\n        color: var(--brand-color);\n        text-decoration: none;\n        font-weight: bold;\n        font-size: 1.2em;\n        padding: .6em;\n        display: inline-block;        \n      }\n\n      .app-logo img {\n        width: 90px;\n      }\n      \n      .hamburger-btn::part(base) {\n        color: var(--icon-color);\n      }\n\n      .hamburger-btn::part(base):hover {\n        color: var(--brand-color);\n      }\n\n      .app-top-nav {\n        display: flex;\n        height: 100%;\n        align-items: center;\n      }\n      \n      .sl-menu-items {\n          font-family: var(--base-font-family);\n          font-weight: 200;\n      }\n      \n      .app-top-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: var(--base-txt-color);\n      }\n\n      .app-top-nav a:hover {\n        color: var(--brand-color);\n      }\n      \n      .app-side-menu-items a {\n        display: block;\n        padding: .2em;\n        text-decoration: none;\n        font-size: 1em;\n        color: var(--base-txt-color);\n      }\n\n      .app-side-menu-items a:hover {\n        color: var(--brand-color);\n      }\n\n      .app-side-menu-logo {\n        width: 120px;\n        margin-bottom: 2em;\n        position: absolute;\n        top: 2em;\n        left: 1.5em;\n      }\n\n      .page-title {\n        color: var(--app-header-txt-color);\n        margin-right: 0.5em;\n        font-size: var(--app-header-title-font-size);\n      }\n\n      /* active nav links */\n      .app-top-nav a.active,\n      .app-side-menu-items a.active {\n        font-weight: bold;\n      }\n\n      /* RESPONSIVE - MOBILE ------------------- */\n      @media all and (max-width: 768px){       \n        .app-top-nav a {\n        display: none;\n        }\n        .app-top-nav .profile-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: var(--base-txt-color);\n      }\n      }\n\n    </style>\n\n    <header class=\"app-header\">\n      <sl-icon-button class=\"hamburger-btn\" name=\"list\" @click=\"", "\" style=\"font-size: 1.5em;\"></sl-icon-button>       \n      \n      <div class=\"app-header-main\">\n        ", "\n        <slot></slot>\n      </div>\n    \n      <nav class=\"app-top-nav\">\n        <a href=\"/\" @click=\"", "\">Home</a>\n        \n        ", "\n\n        <sl-dropdown class=\"profile-nav\">\n          <a slot=\"trigger\" href=\"#\" @click=\"", "\">\n            <sl-avatar style=\"--size: 24px;\" image=", "></sl-avatar> ", "\n          </a>\n          <sl-menu>            \n            <sl-menu-item @click=\"", "\">Profile</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Edit Profile</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Sign Out</sl-menu-item>\n          </sl-menu>\n        </sl-dropdown>\n      </nav>\n    </header>\n\n    <sl-drawer class=\"app-side-menu page-content\" placement=\"left\">\n      <img class=\"app-side-menu-logo\" src=\"/images/logo.svg\">\n      <nav class=\"app-side-menu-items\">\n        <h2>Menu</h2>\n        <a href=\"/\" @click=\"", "\">Dashboard</a>\n        <a href=\"/savedList\" @click=\"", "\">Saved List</a>\n        <a href=\"/profile\" @click=\"", "\">Profile</a>\n        <h2>Learn</h2>\n        ", "\n        <a href=\"/eatBlog\" @click=\"", "\">Eat</a>\n        <a href=\"/mindBlog\" @click=\"", "\">Mind</a>\n        <a href=\"/moveBlog\" @click=\"", "\">Move</a>\n        <h2>More</h2>\n        <a href=\"/about\" @click=\"", "\">About</a>\n        <a href=\"#\" @click=\"", "\">Sign Out</a>\n      </nav>  \n    </sl-drawer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style>      \n      * {\n        box-sizing: border-box;\n      }\n      .app-header {\n        background: var(--brand-colour);\n        position: fixed;\n        top: 0;\n        right: 0;\n        left: 0;\n        height: var(--app-header-height);\n        color: var(--brand-color);\n        display: flex;\n        z-index: 9;\n        align-items: center;\n      }\n    \n      .app-header-main {\n        flex-grow: 1;\n        display: flex;\n        align-items: center;\n      }\n\n      .app-header-main::slotted(h1){\n        color: var(--brand-color);\n      }\n\n      .app-logo a {\n        color: var(--brand-color);\n        text-decoration: none;\n        font-weight: bold;\n        font-size: 1.2em;\n        padding: .6em;\n        display: inline-block;        \n      }\n\n      .app-logo img {\n        width: 90px;\n      }\n      \n      .hamburger-btn::part(base) {\n        color: var(--icon-color);\n      }\n\n      .hamburger-btn::part(base):hover {\n        color: var(--brand-color);\n      }\n\n      .app-top-nav {\n        display: flex;\n        height: 100%;\n        align-items: center;\n      }\n      \n      .app-top-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: var(--base-txt-color);\n      }\n\n      .app-top-nav a:hover {\n        color: var(--brand-color);\n      }\n      \n      .app-side-menu-items a {\n        display: block;\n        padding: .2em;\n        text-decoration: none;\n        font-size: 1em;\n        color: var(--base-txt-color);\n      }\n\n      .app-side-menu-items a:hover {\n        color: var(--brand-color);\n      }\n\n      .app-side-menu-logo {\n        width: 120px;\n        margin-bottom: 2em;\n        position: absolute;\n        top: 2em;\n        left: 1.5em;\n      }\n\n      .page-title {\n        color: var(--app-header-txt-color);\n        margin-right: 0.5em;\n        font-size: var(--app-header-title-font-size);\n      }\n\n      /* active nav links */\n      .app-top-nav a.active,\n      .app-side-menu-items a.active {\n        font-weight: bold;\n      }\n\n      /* RESPONSIVE - MOBILE ------------------- */\n      @media all and (max-width: 768px){       \n        .app-top-nav a {\n        display: none;\n        }\n        .app-top-nav .profile-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: var(--base-txt-color);\n      }\n    }\n\n    </style>\n\n    <header class=\"app-header\">\n      <sl-icon-button class=\"hamburger-btn\" name=\"list\" @click=\"", "\" style=\"font-size: 1.5em;\"></sl-icon-button>       \n      \n      <div class=\"app-header-main\">\n        ", "\n        <slot></slot>\n      </div>\n    \n      <nav class=\"app-top-nav\">\n        <a href=\"/\" @click=\"", "\">Home</a>\n        \n        ", "\n\n        <sl-dropdown class=\"profile-nav\">\n          <a slot=\"trigger\" href=\"#\" @click=\"", "\">\n            <sl-avatar style=\"--size: 24px;\" image=", "></sl-avatar> ", "\n          </a>\n          <sl-menu>            \n            <sl-menu-item @click=\"", "\">Profile</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Edit Profile</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Sign Out</sl-menu-item>\n          </sl-menu>\n        </sl-dropdown>\n      </nav>\n    </header>\n\n    <sl-drawer class=\"app-side-menu page-content\" placement=\"left\">\n      <img class=\"app-side-menu-logo\" src=\"/images/logo.svg\">\n      <nav class=\"app-side-menu-items\">\n        <h2>Menu</h2>\n        <a href=\"/\" @click=\"", "\">Dashboard</a>\n        <a href=\"/savedList\" @click=\"", "\">Saved List</a>\n        <a href=\"/profile\" @click=\"", "\">Profile</a>\n        <h2>Learn</h2>\n        ", "\n        <a href=\"/eatBlog\" @click=\"", "\">Eat</a>\n        <a href=\"/mindBlog\" @click=\"", "\">Mind</a>\n        <a href=\"/moveBlog\" @click=\"", "\">Move</a>\n        <h2>More</h2>\n        <a href=\"/about\" @click=\"", "\">About</a>\n        <a href=\"#\" @click=\"", "\">Sign Out</a>\n      </nav>  \n    </sl-drawer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -16837,7 +16837,7 @@ var _Toast = _interopRequireDefault(require("./../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject2() {
-  const data = _taggedTemplateLiteral(["\n    <style> \n      .wrap {\n        display: flex;\n        flex-wrap: wrap;\n      }\n\n      img {\n        display: inline-block;\n        width: 95%;\n        padding-top: 0.5em;\n      }\n\n      h2 {\n        text-align: left;\n        font-size: 1.2em;\n        padding-top: 1em;\n      }\n\n      p {\n        text-align: left;\n        font-size: 0.9em;\n        padding-bottom: 2em;\n      }\n\n      .author {\n          font-size: 0.8em;\n          font-style: italic;\n      }\n      .buttons {\n        text-align: left;\n        padding-bottom: 2em;\n    }\n    </style>\n\n    <sl-card>\n      <img slot=\"image\" src=\"", "/images/", "\" />\n      <h2>", "</h2>\n      <p>", "</p>\n      <p class=\"author\">By ", "</p>\n      <div class=\"buttons\">\n        <sl-button type=\"primary\" @click=", ">View post</sl-button>\n        <sl-button type=\"primary\" @click=", ">\n          <sl-icon slot=\"prefix\" name=\"heart-fill\"></sl-icon>Save\n        </sl-button>        \n      </div>\n      </sl-card>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style> \n      .wrap {\n        display: flex;\n        flex-wrap: wrap;\n      }\n      img {\n        display: inline-block;\n        width: 95%;\n        padding-top: 0.5em;\n      }\n      h2 {\n        text-align: left;\n        font-size: 1.2em;\n        padding-top: 1em;\n      }\n      p {\n        text-align: left;\n        font-size: 0.9em;\n        padding-bottom: 2em;\n      }\n      .buttons {\n        text-align: left;\n        padding-bottom: 2em;\n    }\n    </style>\n    <sl-card>\n      <img slot=\"image\" src=\"", "/images/", "\" />\n      <h2>", "</h2>\n      <p>", "</p>\n      <div class=\"buttons\">\n        <sl-button type=\"primary\" @click=", ">View post</sl-button>\n        <sl-button type=\"primary\" @click=", ">\n          <sl-icon slot=\"prefix\" name=\"heart-fill\"></sl-icon>Save\n        </sl-button>        \n      </div>\n      </sl-card>\n    "]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -16847,7 +16847,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>\n    .wrap {\n        display: flex;\n        flex-wrap: wrap;\n    }\n   \n    .content {\n        margin-left: 2em;\n        margin-right: 2em;\n        text-align: left;\n    }\n\n    .frame {\n      display: block;\n      margin-bottom: 1em;\n    }\n    \n    </style>\n    \n    <div class=\"wrap\">\n        <div class=\"image\">\n            <img src=\"", "/images/", "\" alt=\"", "\" />\n        </div>\n      <div class=\"content\">\n        <h1>", "</h1>\n        <p>", "</p>\n          <sl-responsive-media class=\"frame\" aspect-ratio=\"16:9\">\n            <iframe id=\"urlFrame\" frameborder=\"0\" allow=\"autoplay\" fullscreen=\"allowfullscreen\" fit=\"contain\" src=\"", "\"></iframe>\n          </sl-responsive-media>\n        <sl-button type=\"primary\" @click=", ">\n          <sl-icon slot=\"prefix\" name=\"heart-fill\"></sl-icon>Save\n        </sl-button>\n      </div>\n    </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style>\n    .wrap {\n        display: flex;\n        flex-wrap: wrap;\n    }\n   \n    .content {\n        margin-left: 2em;\n        margin-right: 2em;\n        text-align: left;\n    }\n    \n    </style>\n    \n    <div class=\"wrap\">\n        <div class=\"image\">\n            <img src=\"", "/images/", "\" alt=\"", "\" />\n        </div>\n      <div class=\"content\">\n        <h1>", "</h1>\n        <p>", "</p>\n        <sl-button type=\"primary\" @click=", ">\n          <sl-icon slot=\"prefix\" name=\"heart-fill\"></sl-icon>Save\n        </sl-button>\n      </div>\n    </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -16899,7 +16899,7 @@ customElements.define('va-blog', class Blog extends _litElement.LitElement {
 
     dialogEl.className = 'blog-dialog'; // sl-dialog content
 
-    const dialogContent = (0, _litElement.html)(_templateObject(), _App.default.apiBase, this.media, this.title, this.title, this.post, this.link, this.saveBlogsHandler.bind(this));
+    const dialogContent = (0, _litElement.html)(_templateObject(), _App.default.apiBase, this.media, this.title, this.title, this.post, this.saveBlogsHandler.bind(this));
     (0, _litHtml.render)(dialogContent, dialogEl); // append to document.body
 
     document.body.append(dialogEl); // show sl-dialog
@@ -16922,7 +16922,7 @@ customElements.define('va-blog', class Blog extends _litElement.LitElement {
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject2(), _App.default.apiBase, this.media, capitalize(this.title), truncate(this.post, 20), this.user.firstName, this.viewPostHandler.bind(this), this.saveBlogsHandler.bind(this));
+    return (0, _litElement.html)(_templateObject2(), _App.default.apiBase, this.media, capitalize(this.title), truncate(this.post, 20), this.viewPostHandler.bind(this), this.saveBlogsHandler.bind(this));
   }
 
 });
@@ -16943,20 +16943,12 @@ function capitalize(string) {
 
 var _litElement = require("@polymer/lit-element");
 
-var _litHtml = require("lit-html");
-
-var _Auth = _interopRequireDefault(require("./../Auth"));
-
-var _App = _interopRequireDefault(require("./../App"));
-
-var _Toast = _interopRequireDefault(require("./../Toast"));
-
 var _moment = _interopRequireDefault(require("moment"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>\n      .wrap {\n        display: flex;\n        flex-wrap: wrap;\n      }\n      h4 {\n        text-align: left;\n        font-size: 1em;\n        font-weight: 400;\n      }\n\n      p {\n        text-align: left;\n        font-size: 0.8em;\n        margin-bottom: 1.8em;\n      }\n      p.date {\n        font-weight: 600;\n      }\n    </style>\n\n    <sl-card class=\"tracker-card\">\n      <h4>I have gratitude for these things in my life:</h4>\n      <p>", "</p>\n      <h4>How much variety was in my meals:</h4>\n      <p>", "</p>\n      <h4>Eating these meals made me feel:</h4>\n      <p>", "</p>\n      <h4>On reflection, my meals were:</h4>\n      <p>", "</p>\n      <h4>How much movement I did:</h4>\n      <p>", "</p>\n      <p class=\"date\">Tracker Entry: ", "</p>\n    </sl-card>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style>\n      .wrap {\n        display: flex;\n        flex-wrap: wrap;\n      }\n      h4 {\n        text-align: left;\n        font-size: 1em;\n        font-weight: 400;\n      }\n      p {\n        text-align: left;\n        font-size: 0.8em;\n        margin-bottom: 1.8em;\n      }\n      p.date {\n        font-weight: 600;\n      }\n    </style>\n    <sl-card class=\"tracker-card\">\n      <p class=\"date\">Tracker Entry: ", "</p>\n      <h4>I have gratitude for these things in my life:</h4>\n      <p>", "</p>\n      <h4>How much variety was in my meals:</h4>\n      <p>", "</p>\n      <h4>Eating these meals made me feel:</h4>\n      <p>", "</p>\n      <h4>On reflection, my meals were:</h4>\n      <p>", "</p>\n      <h4>How much movement I did:</h4>\n      <p>", "</p>\n      <p>", "</p>\n    </sl-card>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -16994,6 +16986,9 @@ customElements.define('va-tracker', class Tracker extends _litElement.LitElement
       },
       emotion: {
         type: String
+      },
+      createdAt: {
+        type: Date
       }
     };
   }
@@ -17003,7 +16998,7 @@ customElements.define('va-tracker', class Tracker extends _litElement.LitElement
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), capitalize(this.gratitude), this.variety, this.emotion, capitalize(this.reflection), this.movement, (0, _moment.default)(Tracker.createdAt).format('MMMM Do YYYY'));
+    return (0, _litElement.html)(_templateObject(), (0, _moment.default)(this.createdAt).format('MMMM Do YYYY'), capitalize(this.gratitude), this.variety, this.emotion, capitalize(this.reflection), this.movement, this.user);
   }
 
 });
@@ -17012,7 +17007,7 @@ function capitalize(string) {
   if (typeof string !== 'string') return '';
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
-},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","lit-html":"../node_modules/lit-html/lit-html.js","./../Auth":"Auth.js","./../App":"App.js","./../Toast":"Toast.js","moment":"../node_modules/moment/moment.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","moment":"../node_modules/moment/moment.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -17133,7 +17128,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58527" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63573" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -55,7 +55,6 @@ class MoveBlogView {
                 post="${blog.post}"
                 category="${blog.category}"
                 media="${blog.media}"
-                user="${JSON.stringify(blog.user)}"
               >
             </va-blog>
             `)}

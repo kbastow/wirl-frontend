@@ -50,12 +50,10 @@ class DashboardView {
               <a class="more-info" href="/moveBlog" @click="${anchorRoute}">Go to Move<sl-icon style="font-size: 12px; padding-left: 0.5em;" name="caret-right"></sl-icon></a>
               <sl-button slot="footer" type="primary">Close</sl-button>  
             </sl-drawer>
-
             <sl-button type="primary">Learn</sl-button>
           </div>
         </div>
       </div>
-     
     `
     render(template, App.rootEl)
   }
